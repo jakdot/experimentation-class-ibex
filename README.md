@@ -2,7 +2,7 @@
 
 You will learn to work with Ibex and Ibex farm in this lab meeting.
 
-to get you started, I prepared skeleton files for you and specified a few tasks, which, if you go through them, should help you understand how to use Ibex for your own experiments. This is not a graded assignment! Feel free to come up with other tasks and to try different features of Ibex.
+To get you started, I prepared skeleton files for you and specified a few tasks, which, if you go through them, should help you understand how to use Ibex for your own experiments. This is not a graded assignment! Feel free to come up with other tasks and to try different features of Ibex.
 
 1. Download/clone all the files from this repo
 2. Go to http://spellout.net/ibexfarm/ and create an account.
