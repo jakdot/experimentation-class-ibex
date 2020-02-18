@@ -6,7 +6,7 @@ To get you started, I prepared skeleton files for you and specified a few tasks,
 
 1. Download/clone all the files from this repo
 2. Go to http://spellout.net/ibexfarm/ and create an account.
-3. Donwload the manual for Ibex: http://spellout.net/latest\_ibex\_manual.pdf. This might be useful if you get stuck.
+3. Donwload the manual for Ibex: http://spellout.net/latest_ibex_manual.pdf. This might be useful if you get stuck.
 4. Create an experiment and upload the following files *from the folder Preference task*:
 - example\_intro.html into chunk\_includes (overwrite the old file, if there is any)
 - judgements.js into data\_includes (overwrite the old file, if there is any)
