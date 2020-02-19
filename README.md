@@ -8,18 +8,20 @@ To get you started, I prepared skeleton files for you and specified a few tasks,
 2. Go to http://spellout.net/ibexfarm/ and create an account.
 3. Donwload the manual for Ibex: http://spellout.net/latest_ibex_manual.pdf. This might be useful if you get stuck.
 4. Create an experiment and upload the following files *from the folder Preference task*:
-- example\_intro.html into chunk\_includes (overwrite the old file, if there is any)
-- judgements.js into data\_includes (overwrite the old file, if there is any)
-5. Go through the experiment once and inspect the results; after answering each of the following questions, check that the experiment still works, inspect the results
+- example\_intro.html into chunk\_includes (delete an old file in the folder, if there is any)
+- judgements.js into data\_includes (delete an old file in the folder, if there is any)
+5. Go through the experiment once; when you are done inspect results in *results*; these should be self-explanatory; after answering each of the following questions, you should always run the experiment and check the results to see that your modifications worked
 6. Add extra items to the experiment.
 7. Add extra fillers to the experiment.
 8. Modify the html form, add a new column to collect information.
 9. Add two more conditions per item (e.g., another quantifer).
-10. Create a second experiment and upload the following files *from the folder Acceptability*:
-- example\_intro.html into chunk\_includes (overwrite the old file, if there is any)
+10. Download the results in your R working directory and rename them as "results.csv". Then, download the script data\_munging.R and run it in the same folder where you stored results.csv. You should be able to load your results into R. The R script specifies three tasks. Carry them out.
+11. Create a second experiment and upload the following files *from the folder Acceptability*:
+- example\_intro.html into chunk\_includes (delete an old file in the folder, if there is any)
 - global\_stylesheet.css into css\_includes (not obligatory)
-- judgements.js into data\_includes (overwrite the old file, if there is any)
-11. Go through the experiment once and inspect the results.
-12. We now want to test that *each* has to satisfy the Differentiation condition (discussed in class 18-02), unlike *every*. Think of a way to test this in Acceptability task *that does not involve inverse quantifier scope*.
-13. Write a few items following your idea. Create at least one full loop for the Latin square (you have to have as many items as conditions).
-14. Add two fillers and change the scale to have 7 points.
+- acceptability.js into data\_includes (delete an old file in the folder, if there is any)
+12. Go through the experiment once and inspect the results.
+13. We now want to test that *each* has to satisfy the Differentiation condition (discussed in class 18-02), unlike *every*. Think of a way to test this in Acceptability task *that does not involve inverse quantifier scope*.
+14. Write a few items following your idea. Create at least one full loop for the Latin square (you have to have as many items as conditions).
+15. Add two fillers.
+16. Run the experiment one more time, store the results and adapt data\_munging.R script that you used before. It should now load your acceptability data and calculate median Answer per condition.
