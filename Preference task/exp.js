@@ -29,8 +29,8 @@ var items = [ ["sep", "Separator", { }],
 [["exp-every-respred-item1", 1], q, {q: "A maid polished every mirror spotless.", as: ["Each mirror was polished by a possibly different maid until it was spotless.", "All the mirrors were polished by the same maid until they were spotless."]}],
 
 [["exp-each-nopred-item2", 2], q, {q: "A helper dyed each shirt.", as: ["Each shirt was dyed by a possibly different helper.", "All the shirts were dyed by the same helper."]}],
-[["exp-each-respred-item2", 2], q, {q: "A helper dyed each shirt blue.", as: ["Each shirt was dyed by a possibly different helper until it was the color blue.", "All the shirts were dyed by the same helper until they were the color blue."]}],
 [["exp-every-nopred-item2", 2], q, {q: "A helper dyed every shirt.", as: ["Each shirt was dyed by a possibly different helper.", "All the shirts were dyed by the same helper."]}],
+[["exp-each-respred-item2", 2], q, {q: "A helper dyed each shirt blue.", as: ["Each shirt was dyed by a possibly different helper until it was the color blue.", "All the shirts were dyed by the same helper until they were the color blue."]}],
 [["exp-every-respred-item2", 2], q, {q: "A helper dyed every shirt blue.", as: ["Each shirt was dyed by a possibly different helper until it was the color blue.", "All the shirts were dyed by the same helper until they were the color blue."]}],
 
 [["exp-each-nopred-item3", 3], q, {q: "A janitor dusted each bookcase.", as: ["Each bookcase was dusted by a possibly different janitor.", "All the bookcases were dusted by the same janitor."]}],
